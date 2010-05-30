@@ -1,0 +1,26 @@
+Python Image Poster
+===================
+Zenobius Jiricek
+
+Usage :
+	PyImagePoster.py files
+
+
+Todo :
+	# separate host config definitions into INI files in ~/.PyImagePoster/hosts/*.ini
+	# Write default host there if folder does not exist
+	# Create trayicon during process. Leave it there till user chooses to close it.
+		# trayicon will have options to copy url or page or image (if imagehosting definition file contains these "View Link Types").
+
+			[ (4) ]
+			 -----------------	 -------------
+			|	+	ImageName1  >>|	| Page Url		|
+			|	+	ImageName2 	> |	| Image Url		|
+			|	+	ImageName3	> |	 -------------
+			|	+	ImageName4	> |
+			 -----------------
+			|	?	About					|
+			|	x	Quit					|
+			 -----------------
+
+	# Try to determine if we are running in gui or cli mode (maybe look for a paramter to indicate cli mode and assume gui mode if its missing)
